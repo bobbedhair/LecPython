@@ -1,0 +1,8 @@
+{% extends "hello.html" %} 
+{% block body %} 
+    {% if name %}
+        <h2>This is {{name}}'s main.html.</h2>
+    {% else %}
+        <h2>This is {{name_d}}'s main.html.</h2>
+    {% endif %}
+{% endblock %}
